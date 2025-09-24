@@ -307,8 +307,9 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Physics_Test_Ground_FMOD/Physics_Test_Ground.fspro
-  sourceBankPath: Physics_Test_Ground_FMOD/Build
+  sourceProjectPath: The Physics Compliance Division_FMOD/The Physics Compliance
+    Division.fspro
+  sourceBankPath: The Physics Compliance Division_FMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -330,8 +331,7 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
