@@ -1,6 +1,7 @@
 # The Physics Compliance Division - A Unity Test Ground
 The Physics Compliance Division is a Unity project built for Universities and Online Learning. Featuring a Portal-inspired test chamber, it helps students explore collisions, triggers, input and physics, while also providing a space to experiment with audio, particles and more.
 
+<img src="https://github.com/user-attachments/assets/b87b1ed2-7629-4598-90e1-2296fca9ad72" alt="The Physics Compliance Department - Main Poster" width="50%" />
 
 ## Licensing Notes
 
