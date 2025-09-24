@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5667533312954150134}
   - component: {fileID: 8180019405830034381}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Forcefield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

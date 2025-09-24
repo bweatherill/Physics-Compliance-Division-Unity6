@@ -5,22 +5,22 @@ namespace VFXTools
     [ExecuteAlways]
     public class VFXController : MonoBehaviour
     {
-        [Header("Paramètres Modifiables")]
+        [Header("Paramï¿½tres Modifiables")]
         [SerializeField] private Color particleColor = Color.white; // Couleur des particules
-        [SerializeField, Range(0f, 4f)] private float intensity = 1f; // Intensité (rateOverTime)
+        [SerializeField, Range(0f, 4f)] private float intensity = 1f; // Intensitï¿½ (rateOverTime)
         [SerializeField] private Vector3 windDirection = Vector3.zero; // Direction et puissance du vent
 
-        private ParticleSystem[] particleSystems; // Liste des systèmes de particules
-        private float[] defaultRateOverTimeValues; // Valeurs par défaut rateOverTime pour chaque système de particules
+        private ParticleSystem[] particleSystems; // Liste des systï¿½mes de particules
+        private float[] defaultRateOverTimeValues; // Valeurs par dï¿½faut rateOverTime pour chaque systï¿½me de particules
 
-        void Awake()
+        void Start()
         {
-            ApplySettings(); // Applique les paramètres dès le lancement
+            ApplySettings(); // Applique les paramï¿½tres dï¿½s le lancement
         }
 
         void OnValidate()
         {
-            ApplySettings(); // Met à jour les paramètres en mode éditeur
+            ApplySettings(); // Met ï¿½ jour les paramï¿½tres en mode ï¿½diteur
         }
 
         void FindParticles()
